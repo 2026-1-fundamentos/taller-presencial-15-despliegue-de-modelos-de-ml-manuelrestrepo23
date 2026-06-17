@@ -46,5 +46,5 @@ def index():
     return str(prediction[0][0])
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True)
